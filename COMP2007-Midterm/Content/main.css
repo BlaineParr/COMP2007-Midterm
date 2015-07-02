@@ -1,4 +1,32 @@
-﻿body {
+﻿html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
     background-color: black;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.footer {
+    background-color: white;
+    bottom: 0;
+    color: black;
+    height: 60px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#home {
+    text-align: center;
+}
+
+legend {
     color: white;
 }
