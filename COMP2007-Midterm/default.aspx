@@ -5,7 +5,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
-        <h1>Navbar example</h1>
+        <h1>Course Editor</h1>
         <p>Welcome to the Course Editor! Click on the "Courses" link on the navbar to view, add, edit and delete courses.</p>
     </div>
     <!--jumbotron-->
