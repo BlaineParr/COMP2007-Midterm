@@ -3,5 +3,5 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p id="home">Welcome to the school course list. Click "Courses" on the navbar to view, create, edit and delete pages!</p>
+    <p id="home">Welcome to the course editor. Click "Courses" on the navbar to view, create, edit and delete pages!</p>
 </asp:Content>
