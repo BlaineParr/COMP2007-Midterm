@@ -46,7 +46,7 @@
     </nav>
 
     <form id="form1" runat="server">
-        <div>
+        <div class="container-fluid">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>

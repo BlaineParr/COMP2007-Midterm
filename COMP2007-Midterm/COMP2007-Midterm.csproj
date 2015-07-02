@@ -28,6 +28,17 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="DefaultConnection-Deployment" Order="1">
+          <Destination Path="Data Source=g4kdptz6qa.database.windows.net%3bInitial Catalog=School%3bPersist Security Info=True%3bUser ID=BlaineParr%3bPassword=Youlosedrmario7915" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=g4kdptz6qa.database.windows.net%3bInitial Catalog=School%3bPersist Security Info=True%3bUser ID=BlaineParr%3bPassword=Youlosedrmario7915%3bApplication Name=EntityFramework" ScriptSchema="True" ScriptData="True" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\DefaultConnection-Deployment_SchemaAndData.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -133,6 +144,8 @@
       <DependentUpon>CoursesModel.edmx</DependentUpon>
       <LastGenOutput>CoursesModel.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\bp-COMP2007-Midterm %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\bp-COMP2007-Midterm.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

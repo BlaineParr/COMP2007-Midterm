@@ -23,7 +23,8 @@ body {
     width: 100%;
 }
 
-#home {
+.jumbotron {
+    color: black;
     text-align: center;
 }
 
